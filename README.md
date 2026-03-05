@@ -30,6 +30,7 @@ The PCA plot reduces the dataset to two principal components (PC1 and PC2), allo
 
 ![PCA Example](docs/pca-demo.gif)
 
+
 ---
 
 # PCA Visualization
