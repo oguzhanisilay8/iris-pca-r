@@ -299,3 +299,4 @@ In the iris dataset:
 - The **y-axis (PC2)** represents the **second largest variance**.
 - Each point represents **one sample** in the dataset.
 - Colors indicate **different groups or species**.
+
