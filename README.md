@@ -7,13 +7,13 @@ The goal of this tutorial is to help beginners understand:
 - what PCA is  
 - how to run PCA in R  
 - how to visualize PCA results  
-- how to interpret a PCA plot  
+- how to interpret PCA plots  
 
 This repository is designed as a **simple learning example** for students interested in **data analysis and bioinformatics**.
 
 ---
 
-## PCA Visualization
+# PCA Visualization
 
 The following PCA plot shows how the three iris species are distributed in reduced dimensional space.
 
@@ -29,7 +29,26 @@ This happens because their measurements are more similar.
 
 ---
 
-## Tutorial Page
+# PCA Biplot
+
+A **PCA biplot** shows both **samples** and **variables** in the same plot.
+
+- Points represent samples (flowers)
+- Arrows represent variables (measurements)
+
+This helps us understand **which variables contribute to the separation of samples**.
+
+![PCA Biplot](docs/pca-biplot-iris.png)
+
+From the biplot we can observe:
+
+- **Petal.Length** and **Petal.Width** strongly influence the separation
+- **Setosa** is clearly separated from the other species
+- **Versicolor** and **Virginica** are closer and may overlap
+
+---
+
+# Tutorial Page
 
 You can open the full tutorial here:
 
@@ -37,29 +56,33 @@ https://oguzhanisilay8.github.io/iris-pca-r/
 
 ---
 
-## Repository Structure
+# Repository Structure
 
 iris-pca-r
 
-- iris-pca-analysis.Rmd → source file containing the analysis  
+- iris-pca-analysis.Rmd → PCA tutorial  
+- iris-pca-biplot.Rmd → PCA biplot tutorial  
 - README.md → project description  
-- docs/index.html → rendered tutorial page  
-- docs/pca-iris-plot.png → PCA visualization image
+- docs/index.html → rendered PCA tutorial page  
+- docs/iris-pca-biplot.html → rendered PCA biplot tutorial page  
+- docs/pca-iris-plot.png → PCA visualization image  
+- docs/pca-biplot-iris.png → PCA biplot visualization  
 
 ---
 
-## Methods Used
+# Methods Used
 
 This tutorial demonstrates basic concepts used in data analysis:
 
 - Principal Component Analysis (PCA)
+- PCA biplot visualization
 - Data visualization with ggplot2
 - Dimensionality reduction
 - Exploratory data analysis
 
-  ---
+---
 
-  ## Dataset
+# Dataset
 
 This project uses the **iris dataset**, which is included in **R**.
 
@@ -73,6 +96,7 @@ This project uses the **iris dataset**, which is included in **R**.
   - virginica
 
 - **4 numeric measurements**
+
   - Sepal Length
   - Sepal Width
   - Petal Length
@@ -80,9 +104,9 @@ This project uses the **iris dataset**, which is included in **R**.
 
 These measurements are used to perform **Principal Component Analysis (PCA)**.
 
-  ---
+---
 
-  ## Tools
+# Tools
 
 - R  
 - R Markdown  
@@ -90,9 +114,9 @@ These measurements are used to perform **Principal Component Analysis (PCA)**.
 - GitHub  
 - GitHub Pages  
 
-  ---
+---
 
-## Author
+# Author
 
 **Oğuzhan Işılay**
 
@@ -105,4 +129,3 @@ Biotechnology student interested in:
 GitHub profile:
 
 https://github.com/oguzhanisilay8
-
