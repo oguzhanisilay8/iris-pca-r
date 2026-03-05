@@ -1,3 +1,7 @@
+![R](https://img.shields.io/badge/language-R-blue)
+![PCA](https://img.shields.io/badge/method-PCA-green)
+![ggplot2](https://img.shields.io/badge/visualization-ggplot2-orange)
+
 # PCA Analysis with the Iris Dataset
 
 This project shows a simple example of **Principal Component Analysis (PCA)** using the **iris dataset** in **R**.
