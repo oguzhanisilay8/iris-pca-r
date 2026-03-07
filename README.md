@@ -80,8 +80,10 @@ https://oguzhanisilay8.github.io/iris-pca-r/
 
 iris-pca-r
 
-- iris-pca-analysis.Rmd → PCA tutorial  
-- iris-pca-biplot.Rmd → PCA biplot tutorial  
+- iris-pca-analysis.Rmd → PCA tutorial
+- iris-pca-analysis.pdf → PCA tutorial pdf
+- iris-pca-biplot.Rmd → PCA biplot tutorial
+- iris-pca-biplot.pdf → PCA biplot tutorial pdf
 - README.md → project description  
 - docs/index.html → rendered PCA tutorial page  
 - docs/iris-pca-biplot.html → rendered PCA biplot tutorial page  
